@@ -10,14 +10,14 @@ This repository contains my projects for the freeCodeCamp Responsive Web Design 
 ## Projects
 
 1. **Survey Form**
-   [Live Preview](https://github.com/mkawnga/bcc-responsive-web-design/tree/26f7fe518daf7ac6e63b4ac797a58713d31862d4/survey-form)
+   [Live Preview](https://mkawnga.github.io/fcc-responsive-web-design/survey-form/)
    A simple sign-up form, not FCC test-passing.
 
 2. **Tribute Page**
-   [Live Preview – Final](https://github.com/mkawnga/bcc-responsive-web-design/tree/26f7fe518daf7ac6e63b4ac797a58713d31862d4/tribute-page/final)
+   [Live Preview – Final](https://mkawnga.github.io/fcc-responsive-web-design/tribute-page/final/)
    A tribute to Hayao Miyazaki, fully customized and styled.
 
-   🔹 [FCC Test-Passing Version]([./tribute-page/fcc-version/index.html](https://github.com/mkawnga/bcc-responsive-web-design/tree/26f7fe518daf7ac6e63b4ac797a58713d31862d4/tribute-page/fcc-version))
+   🔹 [FCC Test-Passing Version](https://mkawnga.github.io/fcc-responsive-web-design/fcc-version/))
 
 
 3. **Technical Documentation Page**
@@ -25,7 +25,7 @@ This repository contains my projects for the freeCodeCamp Responsive Web Design 
    
 
 4.  **Product Landing Page**
-   [Live Preview](https://github.com/mkawnga/bcc-responsive-web-design/tree/26f7fe518daf7ac6e63b4ac797a58713d31862d4/product-landing-page)
+   [Live Preview](https://mkawnga.github.io/fcc-responsive-web-design/product-landing-page/)
    A fictional product promo page for a Coffee start-up, not FCC test-passing.
    
 
