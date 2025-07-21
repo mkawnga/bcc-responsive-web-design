@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Morenika Wijninga">
+    <title>Tribute Page Hayao Miyazaki</title>
+    <link rel="stylesheet" href="styles.css">
+        <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+    <div class="banner">
+        <div class="slider" style="--quantity:11">
+            <div class="item" style="--position: 1"><img src="https://i.pinimg.com/736x/3b/fa/ff/3bfafffd9848303662166e0ee437b0e1.jpg" alt="Nausicaa of the Valley of the Wind 1984"></div>
+            <div class="item" style="--position: 2"><img src="https://i.pinimg.com/1200x/f8/02/17/f802176a8f49504bb20e394cb295b6eb.jpg" alt="Castle in the Sky 1986"></div>
+            <div class="item" style="--position: 3"><img src="https://i.pinimg.com/736x/f4/6f/94/f46f94dedd5424d15b0a8f11696b72b8.jpg" alt="My Neighbor Totoro 1988"></div>
+            <div class="item" style="--position: 4"><img src="https://i.pinimg.com/736x/ab/1f/eb/ab1feba96aae7c6834029e9f6bc4b1f0.jpg" alt="Kiki's flying delivery service 1989"></div>
+            <div class="item" style="--position: 5"><img src="https://i.pinimg.com/736x/57/bd/c1/57bdc12a63a8c6574a7ab5426893bbdc.jpg" alt="Porco Rosso 1992"></div>
+            <div class="item" style="--position: 6"><img src="https://i.pinimg.com/736x/12/45/a0/1245a0fc1d05aeccbc97a6f0ebd4346d.jpg" alt="Princes Mononoke 1997"></div>
+            <div class="item" style="--position: 7"><img src="https://i.pinimg.com/736x/bb/9d/0c/bb9d0c7d60ffcadf2c33c6f23473e409.jpg" alt="Spirited Away 2001"></div>
+            <div class="item" style="--position: 8"><img src="https://i.pinimg.com/736x/e6/d6/19/e6d6198cf8b150eba2eb677a8ee5ef4b.jpg" alt="Howl's Moving Castle 2004"></div>
+            <div class="item" style="--position: 9"><img src="https://i.pinimg.com/736x/89/ba/b6/89bab6d885637a151dc6a736d3107901.jpg" alt="Ponyo 2008"></div>
+            <div class="item" style="--position: 10"><img src="https://i.pinimg.com/736x/54/26/a7/5426a74f34ca220633cc0d18e6f1026e.jpg" alt="The Wind Rises 2013"></div>
+            <div class="item" style="--position: 11"><img src="https://i.pinimg.com/736x/36/59/7e/36597ed09ab367f4287b997c069a99bd.jpg" alt="the Boy and the Heron 2023"></div>
+        </div>
+        <div class="content">
+            <h1 data-content="宮崎 駿">
+                宮崎 駿
+            </h1>
+            <div class="author">
+                <h2>Hayao Miyazaki</h2>
+                <p>
+                    Studio Ghibli's co-founder since 1985
+                </p>
+            </div>    
+            <div class="model"></div>
+        </div>
+    </div>
+
+    <main class="below-content" id="main">
+        <h2 id="title">More about Hayao Miyazaki</h2>
+            <p>
+                Miyazaki's works are frequently subject to scholarly analysis and have been characterized by the recurrence of themes such as humanity's relationship with nature and technology, the importance of art and craftsmanship, and the difficulty of maintaining a pacifist ethic in a violent world. His protagonists are often strong girls or young women, and several of his films present morally ambiguous antagonists with redeeming qualities. Miyazaki's works have been highly praised and awarded; he was named a Person of Cultural Merit for outstanding cultural contributions in 2012, received the Academy Honorary Award for his impact on animation and cinema in 2014, and the Ramon Magsaysay Award in 2024. Miyazaki has frequently been cited as an inspiration for numerous animators, directors, and writers.
+            </p>
+
+                
+        <section class="info-section" id="tribute-info">
+            <div class="info-text">
+                <h3>Filmography</h3>
+            <ul class="info-list">
+                <li>Nausicaä of the Valley of the Wind (1984)</li>
+                <li>Castle in the Sky (1986)</li>
+                <li>My Neighbor Totoro (1988)</li>
+                <li>Kiki's Delivery Service (1989)</li>
+                <li>Porco Rosso (1992)</li>
+                <li>Princess Mononoke (1997)</li>
+                <li>Spirited Away (2001)</li>
+                <li>Howl's Moving Castle (2004)</li>
+                <li>Ponyo (2008)</li>
+                <li>The Wind Rises (2013)</li>
+                <li>The Boy and the Heron (2023)</li>
+            </ul>
+        </div>
+            <figure>
+                <img class="info-image" id="image" src="https://i.pinimg.com/736x/4b/a7/8f/4ba78f0a0424e3bd3ad4be9339f369a4.jpg" alt="Hayao Miyazaki">
+                <figcaption id="img-caption">Hayao Miyazaki with Totoro</figcaption>
+                <hr>
+                If you have time, please check out <br> the rest of his <a target="_blank"  id="tribute-link" href="https://en.wikipedia.org/wiki/Hayao_Miyazaki">story</a>!
+                
+            </figure>
+        </section>
+            
+    </main>
+</body>
+</html>

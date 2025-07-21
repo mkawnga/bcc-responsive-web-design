@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2023/09/17/22/25/witch-8259351_1280.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;  
+    padding: 30px 40px:
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+#description {
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 5px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.wrapper .dropdown {
+    padding: 15px;
+}
+
+.wrapper label {
+    padding-right: 10px;
+}
+
+.wrapper select {
+    width: 55%;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper .radio {
+    padding: 15px;
+}
+
+.wrapper .checkbox {
+    padding: 15px;
+}
+
+.wrapper .textbox {
+    padding: 15px;
+}
+
+.wrapper textarea {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.wrapper textarea::placeholder {
+    color: #fff;
+}
+
+.wrapper .message {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0s ease;
+}
+
+.button-container button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}

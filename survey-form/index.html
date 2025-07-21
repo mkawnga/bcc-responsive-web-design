@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Morenika Wijninga">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <form id="survey-form" action="">
+        <h1 id="title">Sign-Up Form</h1>
+        <p id="description">Please fill the information in down below truthfully.</p>
+
+        <fieldset class="wrapper">
+        <div class="input-box">
+            <label id="name-label" class="offscreen" type="username">Username</label>
+            <input id="name" type="text" placeholder="Username" required>
+            <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-box">
+            <label id="email-label" class="offscreen" for="email">E-Mail</label>
+            <input id="email" type="email" placeholder="E-Mail" required>
+            <i class='bx bx-envelope'></i>
+        </div>
+        <div class="input-box">
+            <label id="date-label" class="offscreen" for="birthday">Birthday</label>
+            <input id="date" type="date" name="birthday" min="1925-07-17" max="2007-07-17" required>
+            <i class="bx bx-calendar"></i>
+        </div>
+        
+
+        </fieldset>
+
+        <fieldset class="wrapper">
+        
+
+        <div class="dropdown">
+            <label for="mood" id="mood-label">Choose your mood</label>
+                <select name="mood" id="dropdown">
+                    <option value="good">Good</option>
+                    <option value="fine">Fine</option>
+                    <option value="bad">Bad</option>
+                </select>
+        </div>
+
+        <div class="radio">
+            <legend class="referenced">How did you hear from us?</legend>
+            <p>
+                <input type="radio" name="referenced" id="tiktok" value="tiktok">
+                <label for="tiktok">TikTok</label>
+            </p>
+            <p>
+                <input type="radio" name="referenced" id="instagram" value="instagram">
+                <label for="instagram">Instagram</label>
+            </p>
+            <p>
+                <input type="radio" name="referenced" id="linkedin" value="linkedin">
+                <label for="linkedin">LinkedIn</label>
+            </p>
+            <p>
+                <input type="radio" name="referenced" id="google" value="google">
+                <label for="google">Google</label>
+            </p>
+            <p>
+                <input type="radio" name="referenced" id="other" value="other">
+                <label for="other">Other</label>
+            </p>
+        </div>
+
+        <div class="checkbox">
+            <legend class="hobbies">How do you spend your solo free-time?</legend>
+            <p>
+                <input type="checkbox" name="hobbied" id="hobbies" value="reading">
+                <label for="reading">Reading</label>
+            </p>
+            <p>
+                <input type="checkbox" name="hobbied" id="hobbies" value="exercising">
+                <label for="exercising">Exercising</label>
+            </p>
+            <p>
+                <input type="checkbox" name="hobbied" id="hobbies" value="netflix">
+                <label for="netflix">Netflix</label>
+            </p>
+        </div>
+
+    
+
+        <div class="textbox">
+            <legend class="message">Summarize yourself in a few short lines!</legend>
+            <p>
+                <textarea name="message" id="message" cols="50" rows="10" placeholder="I am.."></textarea>
+            </p>
+        </div>
+        
+
+        </fieldset>
+        <div class="button-container">
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Start Over</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
