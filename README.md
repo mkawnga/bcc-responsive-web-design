@@ -30,7 +30,8 @@ This repository contains my projects for the freeCodeCamp Responsive Web Design 
    
 
 5. **Personal Portfolio Website**
-   *coming soon*
+   [Live Preview](https://mkawnga.github.io/fcc-responsive-web-design/personal-portfolio-webpage/)
+   A Personal portfolio based on my progress from this time-stamp. FCC test-passing.
    
 
 
